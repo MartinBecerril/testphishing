@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e9d7; /* Verde claro profesional */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff; /* Fondo blanco para el contenido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #007b55; /* Verde oscuro para el borde */
+}
+
+h1 {
+    color: #007b55; /* Verde oscuro para el texto */
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #007b55; /* Verde oscuro para el botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005c40; /* Verde más oscuro al pasar el ratón */
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    text-align: left;
+    color: #333333; /* Texto en un color gris oscuro */
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+#moreInfo {
+    background-color: #e6f3e6; /* Fondo verde claro para la información adicional */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #007b55; /* Borde verde oscuro para la información adicional */
+    margin-top: 20px;
+}
